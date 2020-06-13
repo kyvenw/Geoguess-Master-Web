@@ -1,1 +1,10 @@
-{}
+{
+    "apiKey": "AIzaSyBJ4Ig2wQKMG4_vdNKkBf4-apsfs1ZQcuY",
+    "authDomain": "geoguess-4ec33.firebaseapp.com",
+    "databaseURL": "https://geoguess-4ec33.firebaseio.com",
+    "projectId": "geoguess-4ec33",
+    "storageBucket": "geoguess-4ec33.appspot.com",
+    "messagingSenderId": "443216748633",
+    "appId": "1:443216748633:web:02dd79a18576ba5a731148",
+    "measurementId": "G-GV1KCV8JJF"
+}

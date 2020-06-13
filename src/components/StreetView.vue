@@ -125,13 +125,14 @@
     height: 100%; 
     width: 100%; 
     top: 0; 
-    left: 0; 
+    left: 0;
   }
 
   #street-view {
     position: relative;
     min-height: 100%;
     width: 100%;
+    mix-blend-mode: difference;
   }
 
   @media (max-width: 450px) {

@@ -300,6 +300,7 @@
     position: relative;
     min-height: 100%;
     width: 100%;
+    mix-blend-mode: difference;
   } 
 
   @media (max-width: 450px) {
