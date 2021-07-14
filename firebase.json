@@ -6,5 +6,12 @@
     "storageBucket": "geoguess-4ec33.appspot.com",
     "messagingSenderId": "443216748633",
     "appId": "1:443216748633:web:02dd79a18576ba5a731148",
-    "measurementId": "G-GV1KCV8JJF"
+    "measurementId": "G-GV1KCV8JJF",
+	"functions": {
+		"predeploy": [
+		  "npm --prefix \"$RESOURCE_DIR\" run lint",
+		  "npm --prefix \"$RESOURCE_DIR\" run build"
+		],
+		"source": "functions"
+	}
 }

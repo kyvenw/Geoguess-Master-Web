@@ -1,38 +1,15 @@
 <template>
   <v-app-bar
-    v-if="$viewport.width > 450" 
-    color="transparent"
+    color="#061422"
     flat>
-    <div>
-      <v-img src="../assets/logo.png" width="45" />
-    </div>
-    <span id="title">
-      Geoguess Master
-    </span>
-    <div class="flex-grow-1"></div>
-    <v-btn 
-      text
-      color="#FFFFFF"
-      href="#section-about">
-      <span>About</span>
-    </v-btn>
-    <v-btn
-      text
-      color="#FFFFFF"
-      href="#section-limitation">
-      <span>Limitation</span>
-    </v-btn>
-    <v-btn
-      text
-      color="#FFFFFF"
-      href="#footer">
-      <span>Contact</span>
-    </v-btn>
-  </v-app-bar>
-  <v-app-bar
-    v-else
-    color="transparent"
-    flat>
+    <img 
+      src="@/assets/logo.png"
+      width="36"
+    />
+    <img 
+      src="@/assets/title.png"
+      height="30"
+    />
     <div class="flex-grow-1"></div>
     <v-menu>
       <template v-slot:activator="{ on }">
@@ -53,7 +30,7 @@
               <v-list-item-title>LIMITATION</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item href="#footer">
+          <v-list-item href="#contact">
             <v-list-item-content>
               <v-list-item-title>CONTACT</v-list-item-title>
             </v-list-item-content>
@@ -63,19 +40,8 @@
   </v-app-bar>
 </template>
 
-<script>
-  export default {
-
-  }
-</script>
-
 <style scoped>
-  span {
-    font-family: Montsetrrat;
-  }
-
-  #title {
-    color: #FFFFFF;
-    font-weight: 700;
-  }
+span {
+  color: #FFFFFF;
+}
 </style>
